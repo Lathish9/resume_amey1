@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amey Thorat - Resume</title>
+  <link rel="stylesheet" href="c_style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="amey.jpg" alt="Amey Thorat" class="avatar">
+      <h1>Amey Thorat</h1>
+      <p class="tagline">Aspiring Web Developer • Tech Enthusiast</p>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>Hello! I'm Amey, passionate about building simple and smart web solutions. I love learning new technologies and bringing ideas to life through code.</p>
+    </div>
+
+    <div class="section">
+      <h2 onclick="toggleSection('skills')">Skills ⮟</h2>
+      <ul id="skills" class="collapsible">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Bootstrap, React (basic)</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 onclick="toggleSection('projects')">Projects ⮟</h2>
+      <ul id="projects" class="collapsible">
+        <li>Portfolio Website</li>
+        <li>Guess the Number Game</li>
+        <li>Temperature Converter</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Amey Thorat</p>
+    </footer>
+  </div>
+
+  <script src="c_script.js"></script>
+</body>
+</html>
